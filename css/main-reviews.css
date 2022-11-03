@@ -1,0 +1,63 @@
+.main-reviews {
+  display:block;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.main-reviews__title-h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center; 
+  padding-bottom: 3rem
+}
+
+.main-reviews__list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1080px;
+  height: 1032px;
+}
+
+.main-reviews__content-wrapper{
+  display: flex;
+  width: 980px;
+  height: 319px;
+}
+
+.main-reviews-list-figure__name{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align:left;
+}
+
+.main-reviews-list__text{
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+  width: 680px;
+  height: 88px;
+  left: 20rem;
+  top: 2rem;
+}
+
+.main-reviews-list-figure{
+  width: 350px;
+  height: 350px;
+}
+
+.main-reviews-list-figure__img{
+  border-radius: 100%;
+}
+
+li{
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,87 @@
+.footer-contacts {
+  display:block;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.footer-contacts__title-h2 {
+  position: relative;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center; 
+  padding-bottom: 3rem;
+}
+
+.footer-contacts-list {
+  position: relative;
+  font-style: normal;
+  width: 19rem;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+} 
+
+.footer-contacts-list::before {
+  content:"";
+  background-size: contain;
+  position: absolute;
+  width: 35px;
+  height: 32px;
+  right: 20rem;
+}
+
+.footer-contacts-list__text-city{
+  padding-bottom: 4rem;
+}
+
+
+.footer-contacts-list__text-city::before {
+  background-image: url("/img/footer-contacts/location.png");
+}
+
+.footer-contacts-list__text-tel::before {
+  background-image: url("/img/footer-contacts/phone.svg");
+}
+
+.footer-contacts-list__text-mail::before {
+  background-image: url("/img/footer-contacts/envelope.png");
+}
+
+.footer-contacts-sns-list {
+  display: inline-flex;
+  padding-top: 1rem;
+}
+
+.footer-contacts-sns-list__soc-link {
+  padding: 1rem;
+}
+
+.footer-contacts-sns-list__soc-link::before{
+  content:"";
+  background-size: contain;
+  display: block;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.footer-contacts-sns-list__soc-link--pinterest::before {
+  background-image: url("/img/footer-contacts/pinterest.svg");
+}
+
+.footer-contacts-sns-list__soc-link--vk::before {
+  background-image: url("/img/footer-contacts/vk.svg");
+}
+
+
+.footer-contacts-sns-list__soc-link--stumbl::before {
+  background-image: url("/img/footer-contacts/stumbl.svg");
+}
+
+.footer-contacts-sns-list__soc-link--telegram::before {
+  background-image: url("/img/footer-contacts/telegram.svg");
+}

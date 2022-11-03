@@ -1,0 +1,40 @@
+.main-halls__title-h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 6%;
+}
+
+.main-halls{
+  padding-bottom: 8rem;
+}
+
+.container__halls{
+  display: flex;
+  flex-wrap:wrap;
+  width: 1180px;
+  height: 700px;
+  margin: 0 auto;
+  }
+
+.main-halls__figure {
+  position: relative;
+  width: 580px;
+  height: 349px;
+  background-repeat: no-repeat;
+  background-size:contain;
+  padding: 0.5rem;
+}
+
+.main-halls__text {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}

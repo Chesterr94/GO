@@ -1,0 +1,17 @@
+.main-reservation {
+  display: block;
+  width: 1180px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.main-reservation__title-h2 {
+  position: relative;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 6rem;
+}
